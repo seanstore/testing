@@ -27,3 +27,11 @@
 - Automatically clear mock calls, instances and results before every test? … yes
 
 3. `npm i -D jest`
+4. `npm i -D @types/jest`
+5. `npm run test`
+
+### Etc
+
+- `collectCoverage: false`인 경우 커버리지 상태를 보고 싶다면 `jest --coverage`
+- 테스트 명령어에 `--watchAll` 옵션을 붙이면 파일이 변경될 때마다 모든 테스트가 다시 실행된다.
+- 테스트 명령어에 `--watch` 옵션을 붙이면 커밋되지 않은 수정 중인 파일들에 대하여 테스트가 다시 실행된다.
